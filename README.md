@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +20,12 @@
         }
         .main-content {
             padding: 20px;
+            text-align: center;
+        }
+        .main-content img {
+            max-width: 300px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
         }
         .footer {
             background-color: #222;
@@ -37,6 +44,8 @@
     <div class="main-content">
         <h2>Datos en Tiempo Real</h2>
         <p>Aquí se mostrarán los datos en tiempo real para jugadores.</p>
+        <img src="https://example.com/babe-ruth.jpg" alt="Babe Ruth">
+        <p>Imagen de Babe Ruth, una leyenda del béisbol.</p>
     </div>
     <div class="footer">
         Información adicional o enlaces.
